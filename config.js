@@ -30,7 +30,7 @@ module.exports = {
  STATUS_SAVER: toBool(process.env.STATUS_SAVER) || true,
  HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
  HEROKU_API_KEY: process.env.HEROKU_API_KEY,
- DATABASE:
+ DATABASE: 
   DATABASE_URL === "./database.db"
    ? new Sequelize({
       dialect: "sqlite",
